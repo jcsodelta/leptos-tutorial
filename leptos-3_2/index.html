@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .person-card,
+      .person-card[data-theme='light'] {
+        border: 2px solid gray;
+        padding: .5em;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: .5em;
+        width: 250px;
+      }
+
+      .person-card-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: .25em;
+      }
+
+      .person-card-buttons button {
+        width: 100%;
+      }
+
+      .person-card[data-theme='dark'] {
+          background-color: black;
+          color: white;
+      }
+
+      .person-card[data-theme='dark'] .person-card-buttons button {
+          background-color: gray;
+          color: white;
+      }
+
+      .person-card.danger {
+          border-color: red;
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
