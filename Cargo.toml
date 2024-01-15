@@ -5,4 +5,5 @@ resolver = "2"
 members = [
     "./leptos-3_1",
     "./leptos-3_2",
+    "./leptos-3_3",
 ]

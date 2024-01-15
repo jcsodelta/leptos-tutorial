@@ -1,0 +1,64 @@
+html {
+  background-color: #dddddd;
+  color: black;
+}
+
+html[data-theme="light"] {
+  background-color: white;
+  color: black;
+}
+
+html[data-theme="dark"] {
+  background-color: black;
+  color: white;
+}
+
+.person-card-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .5em;
+  padding: .5em;
+}
+
+.person-card {
+  border: 2px solid gray;
+  padding: .5em;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .5em;
+  width: 250px;
+}
+
+.person-card-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .25em;
+}
+
+.person-card-buttons button {
+  width: 100%;
+}
+
+.person-card[data-theme='light'] {
+  background-color: white;
+  color: black;
+}
+
+.person-card[data-theme='dark'] {
+  background-color: black;
+  color: white;
+}
+
+.person-card[data-theme='dark'] .person-card-buttons button {
+  background-color: gray;
+  color: white;
+}
+
+.person-card.danger {
+  border-color: red;
+}
+
+.flex {
+  display: flex;
+  gap: .5em;
+}
