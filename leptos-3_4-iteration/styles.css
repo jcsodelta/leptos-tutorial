@@ -13,12 +13,20 @@ html[data-theme="dark"] {
   color: white;
 }
 
-.person-card-group {
+.person-card-list-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto 1fr auto;
+  gap: .5em;
+  width: fit-content;
+}
+
+.person-card-list {
+  display: flex;
   gap: .5em;
   padding: .5em;
-  width: fit-content;
+  width: 100%;
+  max-width: 1000px;
+  overflow: auto;
 }
 
 .person-card {
