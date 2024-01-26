@@ -83,7 +83,7 @@ pub fn App() -> impl IntoView {
             0,
             min(
                 current_index.get_untracked() + index_diff,
-                max_position as i8,
+                (max_position - 1) as i8,
             ),
         ) as usize;
         let upper_position: usize =

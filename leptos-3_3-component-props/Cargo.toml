@@ -1,5 +1,5 @@
 [package]
-name = "leptos-3_3"
+name = "leptos-3_3-component-props"
 version = "0.1.0"
 edition = "2021"
 

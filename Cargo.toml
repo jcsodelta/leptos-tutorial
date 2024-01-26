@@ -3,8 +3,10 @@
 resolver = "2"
 
 members = [
-    "./leptos-3_1-components",
-    "./leptos-3_2-dynamic-attributes",
-    "./leptos-3_3-component-props",
-    "./leptos-3_4-iteration",
+    "leptos-3_1-components",
+    "leptos-3_2-dynamic-attributes",
+    "leptos-3_3-component-props",
+    "leptos-3_4-iteration",
+    "leptos-3_5-interation2",
+    "shared",
 ]
